@@ -108,7 +108,7 @@ export default function Home() {
               <p className="font-thin mt-4 text-gray-600">২ ঘণ্টা আগে</p>
         </div>
         <div className=" col-span-12 md:col-span-7 grid grid-cols-2 gap-4">
-          <div className="col-span-1">
+          <div className=" col-span-12 md:col-span-1">
           <div className="">
               <Image className="w-full h-auto" src={img2} />
             </div>
@@ -117,7 +117,7 @@ export default function Home() {
               </h1>
               <p className="font-thin mt-4 text-gray-600">২ ঘণ্টা আগে</p>
           </div>
-          <div className="col-span-1">
+          <div className="col-span-12 md:col-span-1">
           <div className="">
               <Image className="w-full h-auto" src={img2}/>
             </div>
@@ -126,7 +126,7 @@ export default function Home() {
               </h1>
               <p className="font-thin mt-4 text-gray-600">২ ঘণ্টা আগে</p>
           </div>
-          <div className="col-span-1">
+          <div className="col-span-12 md:col-span-1">
           <div className="">
               <Image className="w-full h-auto" src={img2} />
             </div>
@@ -135,7 +135,7 @@ export default function Home() {
               </h1>
               <p className="font-thin mt-4 text-gray-600">২ ঘণ্টা আগে</p>
           </div>
-          <div className="col-span-1">
+          <div className="col-span-12 md:col-span-1">
           <div className="">
               <Image className="w-full h-auto" src={img2} />
             </div>
