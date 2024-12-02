@@ -1,11 +1,13 @@
 import Image from "next/image";
 import img1 from "./asset/photo.webp";
 import img2 from "./asset/photo2.webp";
+import img3 from "./asset/photo3.webp";
+
 
 export default function Home() {
   return (
     <div className="container mx-auto">
-      <div className="content1 border">
+      <div className="Binodon border">
       <div className="grid grid-cols-11 gap-4 mt-5">
         <div className="col-span-11 md:col-span-4 order-2 md:order-1">
         <div className="grid gap-2">
@@ -95,7 +97,7 @@ export default function Home() {
       </div>
 
 
-      <div className="content2 border mb-5 mt-5">
+      <div className="Banijjo border mb-5 mt-5">
       <div className=" grid grid-cols-12 gap-4">
       <div className="col-span-12 md:col-span-5">
               <div className="">
@@ -107,8 +109,8 @@ export default function Home() {
               <p className="text-justify font-medium text-gray-600 hover:text-black"> জেলেনস্কি বলেছেন, ন্যাটোর সদস্যপদ নিয়ে প্রস্তাব পুরো ইউক্রেনের জন্য হতে হবে। আর সেটি হতে হবে আন্তর্জাতিকভাবে স্বীকৃত ইউক্রেনের যে সীমান্ত, তার পুরোটা মিলে।</p>
               <p className="font-thin mt-4 text-gray-600">২ ঘণ্টা আগে</p>
         </div>
-        <div className=" col-span-12 md:col-span-7 grid grid-cols-2 gap-4">
-          <div className=" col-span-12 md:col-span-1">
+      <div className=" col-span-12 md:col-span-7 grid grid-cols-2 gap-4">
+          <div className="col-span-1">
           <div className="">
               <Image className="w-full h-auto" src={img2} />
             </div>
@@ -117,7 +119,7 @@ export default function Home() {
               </h1>
               <p className="font-thin mt-4 text-gray-600">২ ঘণ্টা আগে</p>
           </div>
-          <div className="col-span-12 md:col-span-1">
+          <div className="col-span-1">
           <div className="">
               <Image className="w-full h-auto" src={img2}/>
             </div>
@@ -126,7 +128,7 @@ export default function Home() {
               </h1>
               <p className="font-thin mt-4 text-gray-600">২ ঘণ্টা আগে</p>
           </div>
-          <div className="col-span-12 md:col-span-1">
+          <div className="col-span-1">
           <div className="">
               <Image className="w-full h-auto" src={img2} />
             </div>
@@ -135,7 +137,7 @@ export default function Home() {
               </h1>
               <p className="font-thin mt-4 text-gray-600">২ ঘণ্টা আগে</p>
           </div>
-          <div className="col-span-12 md:col-span-1">
+          <div className="col-span-1">
           <div className="">
               <Image className="w-full h-auto" src={img2} />
             </div>
@@ -147,6 +149,37 @@ export default function Home() {
         </div>
       </div>
       </div>
+
+
+      <div className="Fourslide">
+        <div className="grid grid-cols-4 gap-8 mb-10 mt-5">
+          <div className="col-span-1 relative">
+            <Image fill={true} className=" object-cover h-[100px]" src={img3}/>
+            <div className="bg-black opacity-70 top-0 left-0 right-0 bottom-0 absolute">
+              <h1 className="text-yellow-400 font-bold left-4 top-9 relative hover:underline">শিক্ষা</h1>
+              <p className="text-white text-sm font-bold relative left-4 top-10 hover:text-yellow-400 ">এইচএসসির ফরম পূরণ ২ মার্চ থেকে শুরু</p>
+            </div>
+          </div>
+          <div className="col-span-1 relative">
+            <Image fill={true} className="object-cover h-[100px]" src={img3}/>
+            <div className="bg-black opacity-70 top-0 left-0 right-0 bottom-0 absolute">
+              <h1 className="text-yellow-400 font-bold left-4 top-4 relative hover:underline">প্রযুক্তি</h1>
+              <p className="text-white text-sm font-bold relative left-4 top-6 hover:text-yellow-400 "> দেশের বাজারে ২৫০ সিসির নতুন দুই মোটরসাইকেল, দাম কত</p>
+            </div>
+          </div>
+          <div className="col-span-1 relative">
+            <Image fill={true} className="object-cover h-[100px]" src={img3}/>
+            <div className="bg-black opacity-70 top-0 left-0 right-0 bottom-0 absolute">
+              <h1 className="text-yellow-400 font-bold left-4 top-9 relative hover:underline">শিক্ষা</h1>
+              <p className="text-white text-sm font-bold relative left-4 top-10 hover:text-yellow-400 ">এইচএসসির ফরম পূরণ ২ মার্চ থেকে শুরু</p>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+
+
+
     </div>
   );
 }
