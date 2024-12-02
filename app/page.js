@@ -174,7 +174,9 @@ export default function Home() {
               <p className="text-white text-sm font-bold relative left-4 top-10 hover:text-yellow-400 ">এইচএসসির ফরম পূরণ ২ মার্চ থেকে শুরু</p>
             </div>
           </div>
-          
+          <div className="bg-black col-span-1">
+          <Image className="opacity-70 h-[100px] object-cover" src={img3} />
+          </div>
         </div>
       </div>
 
