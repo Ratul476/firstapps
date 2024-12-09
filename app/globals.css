@@ -1,3 +1,25 @@
+@font-face {
+  font-family: "ajp";
+  src: url("../fonts/VarendraAP-Light_v7.ttf") format("woff2"),
+    /* Modern Browsers */ url("../fonts/VarendraAP-Light_v7.ttf"); /* Older Browsers */
+  font-weight: 300;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@media (prefers-color-scheme: dark) {
+}
+:root {
+  --swiper-navigation-size: 10px;
+  --swiper-navigation-top-offset: 50%;
+  --swiper-navigation-sides-offset: 10px;
+  --swiper-navigation-color: white;
+  --golden1: #faa61a;
+}
+
+* {
+  font-family: "ajp", sans-serif;
+  box-sizing: border-box;
+}
