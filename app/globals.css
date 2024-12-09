@@ -1,8 +1,8 @@
 @font-face {
-  font-family: "ajp";
-  src: url("../fonts/VarendraAP-Light_v7.ttf") format("woff2"),
-    /* Modern Browsers */ url("../fonts/VarendraAP-Light_v7.ttf"); /* Older Browsers */
-  font-weight: 300;
+  font-family: "varendra";
+  src: url("./asset/fonts/VarendraAP-Regular_v7.ttf") format("woff2"),
+    /* Modern Browsers */ url("./asset/fonts/VarendraAP-Regular_v7.ttf"); /* Older Browsers */
+  font-weight: 400;
 }
 
 @tailwind base;
@@ -20,6 +20,6 @@
 }
 
 * {
-  font-family: "ajp", sans-serif;
+  font-family: "varendra", sans-serif;
   box-sizing: border-box;
 }
