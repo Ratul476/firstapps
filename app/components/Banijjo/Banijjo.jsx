@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import img2 from "../../asset/photo2.webp";
 import React from 'react'
 
 function Banijjo() {
@@ -7,7 +8,7 @@ function Banijjo() {
             <div className=" grid grid-cols-12 gap-4">
                 <div className="col-span-12 md:col-span-5">
                     <div className="">
-                        <Image className="w-full h-auto" src={img2} />
+                        <Image className="w-full h-auto" src={img2} alt='' />
                     </div>
                     <h1 className="text-xl font-extrabold text-justify mt-2 mb-4 hover:text-blue-600">
                         আংশিক ইউক্রেনের জন্য ন্যাটোর সদস্যপদ ‘শুধু যুদ্ধের উত্তেজনা

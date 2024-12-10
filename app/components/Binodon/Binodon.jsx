@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import img1 from "../../asset/photo.webp";
 import React from 'react'
 
 function Binodon() {
@@ -15,7 +16,7 @@ function Binodon() {
                                 <p className="font-thin mt-2 text-gray-600">২ ঘণ্টা আগে</p>
                             </div>
                             <div className="col-span-1">
-                                <Image className="w-full h-auto" src={img1} />
+                                <Image className="w-full h-auto" src={img1} alt='' />
                             </div>
                         </div>
                         <div className="grid grid-cols-3">
@@ -26,7 +27,7 @@ function Binodon() {
                                 <p className="font-thin mt-2 text-gray-600">২ ঘণ্টা আগে</p>
                             </div>
                             <div className="col-span-1">
-                                <Image className="w-full h-auto" src={img1} />
+                                <Image className="w-full h-auto" src={img1} alt='' />
                             </div>
                         </div>
                         <div className="grid grid-cols-3">
@@ -37,14 +38,14 @@ function Binodon() {
                                 <p className="font-thin mt-2 text-gray-600">২ ঘণ্টা আগে</p>
                             </div>
                             <div className="col-span-1">
-                                <Image className="w-full h-auto" src={img1} />
+                                <Image className="w-full h-auto" src={img1} alt='' />
                             </div>
                         </div>
                     </div>
                 </div>
                 <div className="col-span-11 md:col-span-3 order-1 md:order-2">
                     <div className="">
-                        <Image className="w-full" src={img1} />
+                        <Image className="w-full" src={img1} alt='' />
                     </div>
                     <h1 className="font-extrabold text-xl text-left mt-2 mb-4 hover:text-blue-600">
                         জনপ্রিয় গল্প, উপন্যাস থেকে সিরিজ, কী বলছেন লেখক নির্মাতারা
@@ -66,7 +67,7 @@ function Binodon() {
                                 <p className="font-thin mt-2 text-gray-600">২ ঘণ্টা আগে</p>
                             </div>
                             <div className=" col-span-1">
-                                <Image className="w-full h-auto" src={img1} />
+                                <Image className="w-full h-auto" src={img1} alt='' />
                             </div>
                         </div>
                         <div className="grid grid-cols-3">
@@ -77,7 +78,7 @@ function Binodon() {
                                 <p className="font-thin mt-2 text-gray-600">২ ঘণ্টা আগে</p>
                             </div>
                             <div className=" col-span-1">
-                                <Image className="w-full h-auto" src={img1} />
+                                <Image className="w-full h-auto" src={img1} alt='' />
                             </div>
                         </div>
                         <div className="grid grid-cols-3">
@@ -88,7 +89,7 @@ function Binodon() {
                                 <p className="font-thin mt-2 text-gray-600">২ ঘণ্টা আগে</p>
                             </div>
                             <div className=" col-span-1">
-                                <Image className="w-full h-auto" src={img1} />
+                                <Image className="w-full h-auto" src={img1} alt='' />
                             </div>
                         </div>
                     </div>

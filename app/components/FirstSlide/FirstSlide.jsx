@@ -1,4 +1,8 @@
 import Image from 'next/image'
+import img1 from "../../asset/photo.webp";
+import img4 from "../../asset/Younus.webp";
+import img5 from "../../asset/bangladesh.webp";
+import img6 from "../../asset/imran.webp";
 import React from 'react'
 
 function FirstSlide() {
@@ -15,7 +19,7 @@ function FirstSlide() {
                             </p>
                         </div>
                         <div className="">
-                            <Image className="h-auto w-[99px]" src={img1} />
+                            <Image className="h-auto w-[99px]" src={img1} alt='' />
                         </div>
                     </div>
                     <p className="text-gray-600 mt-3 text-justify hover:text-black">
@@ -34,7 +38,7 @@ function FirstSlide() {
                             </p>
                         </div>
                         <div className="">
-                            <Image className="h-auto w-[99px]" src={img1} />
+                            <Image className="h-auto w-[99px]" src={img1} alt='' />
                         </div>
                     </div>
                     <p className="text-gray-600 mt-3 text-justify hover:text-black">
@@ -53,7 +57,7 @@ function FirstSlide() {
                             </p>
                         </div>
                         <div className="">
-                            <Image className="h-auto w-[99px]" src={img1} />
+                            <Image className="h-auto w-[99px]" src={img1} alt='' />
                         </div>
                     </div>
                     <p className="text-gray-600 mt-3 text-justify hover:text-black">
@@ -88,7 +92,7 @@ function FirstSlide() {
                 <div className="col-span-6">
                     <div className="grid grid-cols-2">
                         <div className="">
-                            <Image className="text-justify mb-1" src={img4} />
+                            <Image className="text-justify mb-1" src={img4} alt='' />
                             <p className="text-gray-600 text-xs">
                                 অন্তর্বর্তী সরকারের প্রধান উপদেষ্টা ড. মুহাম্মদ ইউনূস ধর্মীয়
                                 নেতাদের সঙ্গে বৈঠক করেন। ঢাকা, ৫ ডিসেম্বর
@@ -122,7 +126,7 @@ function FirstSlide() {
                                     </p>
                                 </div>
                                 <div className="">
-                                    <Image className="h-auto w-[99px]" src={img1} />
+                                    <Image className="h-auto w-[99px]" src={img1} alt='' />
                                 </div>
                             </div>
                             <p className="text-gray-600 mt-3 text-justify hover:text-black">
@@ -141,7 +145,7 @@ function FirstSlide() {
                                     </p>
                                 </div>
                                 <div className="">
-                                    <Image className="h-auto w-[80px]" src={img1} />
+                                    <Image className="h-auto w-[80px]" src={img1} alt='' />
                                 </div>
                             </div>
                             <p className="text-gray-600 mt-3 text-justify hover:text-black">
@@ -154,7 +158,7 @@ function FirstSlide() {
 
                     <div className="grid grid-cols-3 gap-4">
                         <div className="">
-                            <Image className="text-justify mb-1" src={img4} />
+                            <Image className="text-justify mb-1" src={img4} alt='' />
                             <p className="text-justify font-semibold hover:text-blue-700">
                                 {" "}
                                 জন্মদাতা মা–বাবাকে খুঁজে ফেরা নারী বাবাকে পেলেন ফেসবুকের
@@ -163,7 +167,7 @@ function FirstSlide() {
                             <p className="text-gray-600 mt-4 mb-7">২৮ মিনিট আগে</p>
                         </div>
                         <div className="">
-                            <Image className="text-justify mb-1" src={img4} />
+                            <Image className="text-justify mb-1" src={img4} alt='' />
                             <p className="text-justify font-semibold hover:text-blue-700">
                                 {" "}
                                 জন্মদাতা মা–বাবাকে খুঁজে ফেরা নারী বাবাকে পেলেন ফেসবুকের
@@ -172,7 +176,7 @@ function FirstSlide() {
                             <p className="text-gray-600 mt-4 mb-7">২৮ মিনিট আগে</p>
                         </div>
                         <div className="">
-                            <Image className="text-justify mb-1" src={img4} />
+                            <Image className="text-justify mb-1" src={img4} alt='' />
                             <p className="text-justify font-semibold hover:text-blue-700">
                                 {" "}
                                 জন্মদাতা মা–বাবাকে খুঁজে ফেরা নারী বাবাকে পেলেন ফেসবুকের
@@ -233,7 +237,7 @@ function FirstSlide() {
                                 </p>
                             </div>
                             <div className="">
-                                <Image className="h-auto w-[99px]" src={img5} />
+                                <Image className="h-auto w-[99px]" src={img5} alt='' />
                             </div>
                         </div>
                         <p className="text-gray-600 mt-3 text-justify hover:text-black">
@@ -254,7 +258,7 @@ function FirstSlide() {
                                 </p>
                             </div>
                             <div className="">
-                                <Image className="h-auto w-[99px]" src={img5} />
+                                <Image className="h-auto w-[99px]" src={img5} alt='' />
                             </div>
                         </div>
                         <p className="text-gray-600 mt-4 mb-7">10 মিনিট আগে</p>
@@ -267,7 +271,7 @@ function FirstSlide() {
                                 </p>
                             </div>
                             <div className="">
-                                <Image className="h-auto w-[99px]" src={img6} />
+                                <Image className="h-auto w-[99px]" src={img6} alt='' />
                             </div>
                         </div>
                         <p className="text-gray-600 mb-7">10 মিনিট আগে</p>

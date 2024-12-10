@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import img3 from "../../asset/photo3.webp";
 import React from 'react'
 
 function Fourslide() {
@@ -6,7 +7,7 @@ function Fourslide() {
         <div className="Fourslide">
             <div className="grid grid-cols-4 h-[100px] gap-8 mb-10 mt-5">
                 <div className="col-span-1 md:col-span-1 relative">
-                    <Image fill={true} className=" object-cover" src={img3} />
+                    <Image fill={true} className=" object-cover" src={img3} alt='' />
                     <div className="bg-black opacity-70 top-0 left-0 right-0 bottom-0 absolute">
                         <h1 className="text-yellow-400 font-bold mt-8 ml-5 hover:underline">
                             শিক্ষা
@@ -17,7 +18,7 @@ function Fourslide() {
                     </div>
                 </div>
                 <div className="col-span-1 md:col-span-1 h-[100px] relative">
-                    <Image fill={true} className="object-cover" src={img3} />
+                    <Image fill={true} className="object-cover" src={img3} alt='' />
                     <div className="bg-black opacity-70 top-0 left-0 right-0 bottom-0 absolute">
                         <h1 className="text-yellow-400 font-bold mt-5 ml-5 hover:underline">
                             প্রযুক্তি
@@ -29,7 +30,7 @@ function Fourslide() {
                     </div>
                 </div>
                 <div className="col-span-1 md:col-span-1 h-[100px] relative">
-                    <Image fill={true} className="object-cover" src={img3} />
+                    <Image fill={true} className="object-cover" src={img3} alt='' />
                     <div className="bg-black opacity-70 top-0 left-0 right-0 bottom-0 absolute">
                         <h1 className="text-yellow-400 font-bold mt-8 ml-5 hover:underline">
                             শিক্ষা
@@ -40,7 +41,7 @@ function Fourslide() {
                     </div>
                 </div>
                 <div className="col-span-1 md:col-span-1 h-[100px] relative">
-                    <Image fill={true} className="object-cover" src={img3} />
+                    <Image fill={true} className="object-cover" src={img3} alt='' />
                     <div className="bg-black opacity-70 top-0 left-0 right-0 bottom-0 absolute">
                         <h1 className="text-yellow-400 font-bold mt-5 ml-5 hover:underline">
                             প্রযুক্তি
